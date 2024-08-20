@@ -12,4 +12,9 @@
   [Очень полезный сайт](https://learn.javascript.ru/event-loop)
 
 ***2. Vue***
-- пустой **template** можно использовать как обёртку для if, for, etc 
+- пустой **template** можно использовать как обёртку для if, for, etc
+
+***3. Components***
+- mixins like traits, store methods, functionality
+- Vuex store data
+
