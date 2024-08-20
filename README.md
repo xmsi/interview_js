@@ -10,3 +10,6 @@
   - Event Loop проверяет если 
 
   [Очень полезный сайт](https://learn.javascript.ru/event-loop)
+
+***2. Vue***
+- пустой **template** можно использовать как обёртку для if, for, etc 
