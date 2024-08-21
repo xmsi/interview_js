@@ -11,10 +11,18 @@
 
   [Очень полезный сайт](https://learn.javascript.ru/event-loop)
 
+***CoreJS***
+- **qs.stringify()** converts a JavaScript object or array into a query string, which is typically used in URL parameters.
+  
 ***2. Vue***
 - пустой **template** можно использовать как обёртку для if, for, etc
+- **props:** Used for receiving data from a parent component. They act as external inputs and can be validated and given default values.\
+  They are also reactive, but you should not change them in childs, instead create internal duplicate of prop.
+- **data():** Defines the internal state of the component. It is reactive and changes to these properties will automatically update the view.
 
 ***3. Components***
 - mixins like traits, store methods, functionality
 - Vuex store data
+
+  
 
