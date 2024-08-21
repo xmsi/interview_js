@@ -26,7 +26,11 @@
     Vue.mixin({
       computed: {
   ```
-- **Vue.use** is used to install a Vue plugin. The plugin is typically an object or a function that provides functionality and is meant to be used across the entire Vue application. A plugin object usually has an install method. This method is called by Vue.use and receives the Vue constructor as an argument. The install method is where the plugin can add functionality to Vue, such as global components, directives, mixins, or prototype methods.
+- **Vue.use** is used to install a Vue plugin. The plugin is typically an object or a function that provides functionality and is meant to be used across the entire Vue application. A plugin object usually has an **install** method. This method is called by Vue.use and receives the Vue constructor as an argument. The install method is where the plugin can add functionality to Vue, such as global components, directives, mixins, or prototype methods.
+
+#### Lifecycle 
+
+- **Mounted** called after the component has been mounted to the DOM, which means it is used when you need to perform actions that require the component to be fully rendered and available in the DOM. Initializing data or making API calls; Integrating third-party libraries; Setting up event listeners
 
 ***3. Components***
 - mixins like traits, store methods, functionality
