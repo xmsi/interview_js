@@ -27,6 +27,21 @@
       computed: {
   ```
 - **Vue.use** is used to install a Vue plugin. The plugin is typically an object or a function that provides functionality and is meant to be used across the entire Vue application. A plugin object usually has an **install** method. This method is called by Vue.use and receives the Vue constructor as an argument. The install method is where the plugin can add functionality to Vue, such as global components, directives, mixins, or prototype methods.
+- **Accessing child components:** If you assign a ref attribute to a child component in the template, this.$refs will hold a reference to the child component instance. This allows you to access the child component's data and methods directly from the parent component.
+```
+<template>
+  <ChildComponent ref="child" />
+</template>
+
+<script>
+export default {
+  mounted() {
+    this.$refs.child.childMethod()
+  }
+}
+</script>
+
+```
 
 #### Lifecycle 
 
